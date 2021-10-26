@@ -1,0 +1,586 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't"
+      ]
+    },
+
+    "broken_phone_screen": 
+    {
+      "includes": 
+      [
+        "phone screen is broken",
+        "screen got cracked",
+        "dropped the phone",
+        "dropped my phone", 
+        "phone screen is all cracked",
+        "phone screen has cracks all over",
+        "the screen of the phone is ruined",
+        "screen is ruined",
+        "screen is broken",
+        "screen broke",
+        "screen got broken",
+        "screen got cracked",
+        "I got an iPhone and the screen is broken",
+        "my mom's iphone screen got cracked and i'm wondering if i could fix it"
+      ]
+    },
+    "broken_phone_screen_replace_cost": {
+      "includes": [
+        "how much it would cost to replace it",        
+        "how much it costs to replace the screen",
+        "how much it would cost to repare the screen",
+        "how much it'd cost to repare the phone",
+        "screen replacement cost"
+      ]
+    },
+    "no_apple_care": {
+      "includes": [
+        "don't have apple care",
+        "no apple care",
+        "didn't get apple care",
+        "haven't got apple care",
+        "I doubt I have apple care",
+        "not sure I have apple care"
+      ]
+    },
+    "how_much_for_repair_with_no_apple_care": {
+      "includes": [
+        "how much does it cost to repair without apple care",
+        "how much will it cost to repair without apple care",
+        "how much would it cost to repair without apple care",
+        "Without apple care how much does it cost ",
+        "what's the price to repair the phone with no apple care",
+        "what's the price for reparing phone without apple care",
+        "cost without apple care",
+        "if I don't have apple care, how much would it cost me to repare",
+        "without having apple care how much the repair",
+        "no apple care, how much would it cost to repair the screen",
+        "reparing the screen without apple care"
+      ]
+    },
+    "broken_phone_screen_repair_cost": {
+      "includes": [
+        "how much does it cost to repair a broken screen",
+        "how much does it cost to repair a cracked screen",
+        "how much would it cost to repair a cracked phone screen?",
+        "what's the price to repair a cracked screen",
+        "what's the price to repair the broken screen",
+        "how much does it cost to fix a broken phone screen",
+        "cost of broken phone screen",
+        "price to fix a cracked screen on the phone"
+      ]
+    },
+    "no_pro_no_pro_max": {
+      "includes": [
+        "neither pro not pro max",
+        "neither",
+        "none of that",
+        "not pro and no pro max",
+        "nothing of the sort",
+        "nothing of the kind"
+      ]
+    },
+    "phone_just_as_i_said": {
+      "includes": [
+        "phone just as I said",
+        "just the one I said",
+        "just the phone I mentioned",
+        "the phine I mentioned",
+        "just the one I told you before"
+      ]
+    },
+    "time_to_repair": {
+      "includes": [
+        "time to repair",
+        "how long does it take to fix the screen",
+        "how long would it take to repare the phone screen",
+        "time wise how long is it to repare the phone",
+        "what's the average repair time"
+      ]
+    },
+    "time_no_parts_available": 
+    {
+      "includes": 
+      [
+        "how much time would it take to fix the phone screen if the parts aren't available",
+        "if there's no parts available how long would it take to get the phone fixed",
+        "no parts available, how long",
+        "no parts available how much time"
+      ]
+    },
+
+    "mailing_options": 
+    {
+      "includes": 
+      [
+        "mailing options",
+        "shipping options",
+        "options for the shipping",
+        "options for the mailing"
+      ]
+    },
+    "frozen_screen": 
+    {
+      "includes": 
+      [
+        "frozen screen",
+        "the screen on my phone froze",
+        "my phone is frozen",
+        "I touch my screen and it's unresponsive",
+        "my screen is unresponsive when I touch it",
+        "everything is frozen",
+        "it all froze",
+        "frozen",
+        "froze",
+        "unresponsive to touch",
+        "screen is frozen",
+        "screen froze"
+      ]
+    },
+    "phone_wont_charge": 
+    {
+      "includes": 
+      [
+        "phone won't charge",
+        "doesn't charge",
+        "doesn't seem to charge",
+        "isn't charging",
+        "my phone isn't charging"
+      ]
+    },
+    "accidental_purchase": 
+    {
+      "includes": 
+      [
+        "I accidentally bought an app",
+        "I accidenally paid for an app",
+        "got an app by accident",
+        "paid for an app I didn't mean to buy",
+        "paid for something inside an app I didn't mean buying"
+      ]
+    },
+    "no_sim_message": 
+    {
+      "includes": 
+      [
+        "no sim card",
+        "no sim",
+        "no SIM",
+        "doesn't show a sim",
+        "shows no sim card is installed"
+      ]
+    },
+    "forgotten_password": 
+    {
+      "includes": 
+      [
+        "forgotten password",
+        "forgot my phone password",
+        "forgot password",
+        "forgot the password to my phone"
+      ]
+    },
+    "water_damage": 
+    {
+      "includes": 
+      [
+        "phone fell into the water",
+        "water inside my phone",
+        "dropped my phone in the water",
+        "dropped my phone inside the water",
+        "I got water inside my phone"
+      ]
+    },
+    "got_you": 
+    {
+      "includes": 
+      [
+        "i got you",
+        "got that",
+        "got what you mean",
+        "I understand",
+        "understood",
+        "gotcha"
+      ]
+    },
+
+    "mailing_option_pricing": 
+    {
+      "includes": 
+      [
+        "what's the mailing option pricing",
+        "how much would it cost to ship the phone",
+        "what's the price for mailing the phone",
+        "how much does it cost to pay for the shipping",
+        "how much does the mailing cost"
+      ]
+    },
+    "upgrade_phone": 
+    {
+      "includes": 
+      [
+        "upgrade phone",
+        "actually like to upgrade my phone",
+        "I would like to upgrade my current phone",
+        "is it possible to upgrade my phone"
+      ]
+    },
+    "trade_in_phone": 
+    {
+      "includes": 
+      [
+        "I want to trade in my current phone",
+        "I would like to trade in my phone",
+        "phone trade in",
+        "phone I would like to trade in"
+      ]
+    },
+    "new_phone_price_after_discount": 
+    {
+      "includes": 
+      [
+        "new phone price after discount",
+        "how much would the new phone cost after the trade in discount",
+        "what would be the price of the new phone once the trade in discount is in?",
+        "what's the price I'd have to pay for the phone after the trade in discount",
+        "price to pay after the trade in discount",
+        "cost of the new phone after the discount"
+      ]
+    },
+    "thank_you": 
+    {
+      "includes": 
+      [
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "thank you very much",
+        "I appreciate it",
+        "I appreciate that",
+        "appreciate your help"
+      ]
+    },
+    "that_would_be_it": 
+    {
+      "includes": 
+      [
+        "that's all",
+        "that would be it",
+        "that would be all",
+        "that's it"
+      ]
+    },
+
+    "need_help": 
+    {
+      "includes": 
+      [
+        "I need some help",
+        "I'd like some help",
+        "need help",
+        "need some help with"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "we're done",
+        "take it easy"
+      ]
+    }
+  },
+ 
+  "entities": {
+    "first_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "John"
+        },
+        {
+          "value": "Bridgette"
+        },
+        {
+          "value": "James"
+        },
+        {
+          "value": "Sarah"
+        },
+        {
+          "value": "Jermaine"
+        },
+        {
+          "value": "Roseanne"
+        },
+        {
+          "value": "Ahmed"
+        },
+        {
+          "value": "Tony"
+        },
+        {
+          "value": "Jon"
+        }
+      ],
+      "includes": 
+      [
+        "(Oscar)[first_name]",
+        "(Danielle)[first_name]",
+        "My name is (Sophie)[first_name]",
+        "My name is (Sarah)[first_name]",
+        "My name is (Cameron)[first_name]",
+        "My name is (Steven)[first_name]",
+        "My name is (Jessica)[first_name]",
+        "My name is (Jon)[first_name]",
+        "My name is (Ahmed)[first_name]",
+        "My first name is (Lisa)[first_name]"
+      ]
+    },
+    "last_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "Dupri"
+        },
+        {
+          "value": "Thompson"
+        },
+        {
+          "value": "Snow"
+        },
+        {
+          "value": "Montana"
+        },
+        {
+          "value": "Bond"
+        },
+        {
+          "value": "Patel"
+        },
+        {
+          "value": "Holden"
+        }
+      ],
+      "includes": 
+      [
+        "This is (James)[first_name] (Holden)[last_name]",
+        "I'm (Jon)[first_name] (Snow)[last_name]",
+        "My name is (Ahmed)[first_name] (Snow)[last_name]",
+        "(Jermaine)[first_name] (Dupri)[last_name]",
+        "Hi there, my name is (Bridgette)[first_name] (Patel)[last_name]",
+        "Hi there, I'm (Ahmed)[first_name] (Montana)[last_name]",
+        "The name is (Holden)[last_name], (James)[first_name], (Holden)[last_name]",
+        "(Bond)[last_name], (James)[first_name], (Bond)[last_name]"
+      ]
+    },
+
+    "phone_model": 
+    {
+      "open_set": false,
+      "values": 
+      [
+        {
+          "value": "iphone 6",
+          "synonyms": 
+          [
+            "the 6",
+            "i phone 6"
+          ]
+        },
+        {
+          "value": "iphone 7",
+          "synonyms": 
+          [
+            "the 7",
+            "i phone 7"
+          ]
+        },
+        {
+          "value": "iphone 8",
+          "synonyms": 
+          [
+            "the 8",
+            "i phone 8"
+          ]
+        },
+        {
+          "value": "iphone x",
+          "synonyms": 
+          [
+            "iphone 10",
+            "i phone 10"
+          ]
+        },
+        {
+          "value": "iphone xr",
+          "synonyms": 
+          [
+            "i phone x r",
+            "iphone XR",
+            "iphone 10 r",
+            "i phone 10 r"
+          ]
+        },
+        {
+          "value": "iphone xs",
+          "synonyms": 
+          [
+            "i phone x s",
+            "iphone x s",
+            "iphone 10 s",
+            "iPhone XS"
+          ]
+        },
+        {
+          "value": "iphone xs max",
+          "synonyms": 
+          [
+            "i phone xs max",
+            "iphone XS max"
+          ]
+        },
+        {
+          "value": "iphone 11 pro",
+          "synonyms": 
+          [
+            "i phone eleven pro",
+            "iphone 11 pro"
+          ]
+        },
+        {
+          "value": "iphone 11 pro max",
+          "synonyms": 
+          [
+            "i phone 11 pro max",
+            "iphone 11 pro max"
+          ]
+        },
+        {
+          "value": "iphone 12",
+          "synonyms": 
+          [
+            "i phone 12",
+            "iphone twelve"
+          ]
+        },
+        {
+          "value": "iphone 12 pro",
+          "synonyms": 
+          [
+            "i phone xs max",
+            "iphone XS",
+            "iphone x s max"
+          ]
+        },
+        {
+          "value": "iphone 12 pro max",
+          "synonyms": 
+          [
+            "i phone 12 pro max",
+            "iphone twelve pro max"
+          ]
+        },
+        {
+          "value": "iphone 13",
+          "synonyms": 
+          [
+            "i phone 13",
+            "iphone thirteen"
+          ]
+        },
+        {
+          "value": "iphone 13 pro",
+          "synonyms": 
+          [
+            "i phone 13 max",
+            "iphone thirteen max"
+          ]
+        },
+        {
+          "value": "iphone 13 pro max",
+          "synonyms": 
+          [
+            "i phone 13 pro max",
+            "iphone thirteen pro max"
+          ]
+        },
+        {
+          "value": "iphone 11",
+          "synonyms": 
+          [
+            "i phone 11",
+            "iphone eleven"
+          ]
+        }
+      ],
+      "includes": [
+        "I have an (iphone 11 pro max)[phone_model]",
+        "I've got a (iphone 11)[phone_model]",
+        "my phone is (iphone 13 pro max)[phone_model]",
+        "the phone I have is (iPhone 8)[phone_model]",
+        "it's (iphone 12)[phone_model]"
+      ]
+    }
+  }
+}
