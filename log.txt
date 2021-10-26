@@ -1,0 +1,377 @@
+####################################################################################################
+human: 
+ai: Hi, thanks for calling Apple Support. My name is Dasha. Can I get your name, please?
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 4
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "common_phrases",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": "ping",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Data",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.78984,
+    "likelihood": 1,
+    "location": {
+      "start": 14,
+      "end": 22
+    },
+    "factType": "first_name",
+    "data": {
+      "value": "angelica"
+    }
+  }
+]
+human: hi my name is angelica
+ai: Hi,angelica how may I help you out today?
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 18
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: my mom dropped the phone and this spring that cracked i was wondering if you guys could fix it
+ai: Sorry, the connection dropped for a second. Could you say that again?
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.96576,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "broken_phone_screen",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 12
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: my mom dropped the phone and the screen got cracked so i was
+ai: Could you tell me the model of the phone, please?
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.90691,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: so
+ai: Sorry, I didn't quite catch that.
+[
+  {
+    "type": "Data",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.99967,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 9
+    },
+    "factType": "phone_model",
+    "data": {
+      "value": "iphone 11"
+    }
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Data",
+    "skill": "common-numbers",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 1,
+      "end": 1
+    },
+    "factType": "numberword",
+    "data": {
+      "value": "11"
+    }
+  }
+]
+human: iphone 11
+ai: Gotcha, we're more than happy to help you with that. I'm gonna need one moment.
+ai: Okay,iphone 11 , let me see. Okay. Do you know if you've got Apple Care coverage on you?
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.96763,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "no_apple_care",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 2
+    },
+    "intent": null,
+    "state": "negative",
+    "sentenceType": "statement"
+  }
+]
+human: no apple care
+ai: Alright. So, when it comes to getting Apple Care, it can actually only be purchased within 60 days of originally purchasing the device... Other than that once there's actual damage to the phone, you're actually not allowed to purchase Apple care.
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.99616,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "how_much_for_repair_with_no_apple_care",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 6
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "question"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 7,
+      "end": 16
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "question"
+  }
+]
+human: how long would it uh and and how much will it cost to repair without apple care
+ai: Yes, I'm pulling that up now...
+ai:  iphone 11 Is it Pro or Pro Max, you said?
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.98485,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "phone_just_as_i_said",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 7
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Data",
+    "skill": "common-numbers",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 3,
+      "end": 3
+    },
+    "factType": "numberword",
+    "data": {
+      "value": "1"
+    }
+  }
+]
+human: uh just the one i told you before
+ai: Okay, gotcha, so that pricing is showing one ninety nine and that, of course, plus tax, most likely.
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 9
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "question"
+  }
+]
+human: and how long would it take for a very discreet
+ai: Sorry, could you say it again?
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.98409,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "time_to_repair",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 6
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "question"
+  }
+]
+human: how long would it take to repair
+ai: So going to store could be a quick turnaround if they have parts available and their schedule isn't too busy. Otherwise, it's up to the store and they would let you know the exact timing once you go in.
+[
+  {
+    "type": "Intent",
+    "skill": "ef3560b55b0ea4e4d82459843b7bdd72:v2",
+    "weight": 0.95164,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "bye",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "common_phrases",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 1,
+      "end": 1
+    },
+    "intent": "bye",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: OK bye
